@@ -1,0 +1,222 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin-SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage{fullpage} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Doruk \textsc{Coskun}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Place and Date of Birth:} & Rize | 9 September 1989 \\
+\textsc{Address:} & -
+ \\
+\textsc{Phone:} & - \\
+\textsc{email:} & \href{mailto:coskundoruk89@gmail.com}{coskundoruk89@gmail.com}
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{13cm}}
+\textsc{Nov 2014-Jan 2017} & \textbf{Software Engineer} at \textsc{Sqills International B.V. }, Istanbul \emph{}\\
+& \footnotesize{Project :S3 Passenger Railway Suite
+\newline
+Technologies used : EJB 3, JPA, JSF+Primefaces, JAX-WS, Glassfish, JBoss, PostgreSQL, Hazelcast, Android
+}\\
+\multicolumn{2}{c}{} \\
+
+
+\textsc{Feb-Jul 2014} & \textbf{Research Intern} at \textsc{Laboratoire d'Informatique de Grenoble}, Grenoble \emph{}\\
+& \footnotesize{Project : Online activity recognition on smart-phone from accelerometer and audio data : a sequence model learning approach with poorly labelled data
+\newline
+Supervisor: François PORTET
+}\\
+\multicolumn{2}{c}{} \\
+
+
+\textsc{Jul-Nov 2012} & \textbf{Software Developer Intern} at \textsc{Yapi ve Kredi Bankası AS}, Istanbul \emph{}\\
+& \footnotesize{Harmoni Project – Next Generation Banking  System of Yapi Kredi
+\newline
+Supervisor: Cemile BEZEKLIOGLU
+}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jul-Aug 2011} & \textbf{Software Engineer Intern} at \textsc{Entegral Integration and Business Intelligence Ltd.}, Istanbul \emph{}\\
+& \footnotesize{Electronic waste donation web application for DHL Express Turkey
+\newline
+Supervisor: Veysel OZDEMIR
+}\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{r|p{14cm}}
+
+\textsc{2013 - 2014} & Master of Science in \textsc{}\textsc{Informatics} \\& \normalsize\textbf{Université Joseph Fourier (Grenoble I)}, Grenoble\\
+&  Major: Artificial Intelligence and the Web\\
+& Thesis: Online activity recognition for smart-phones from accelerometer and audio data : a sequence model learning approach | \small Advisor: François \textsc{PORTET} \& David \textsc{BLACHON}  \\
+&\\
+
+
+
+\textsc{2012 - 2014} & Master of Science in \textsc{}\textsc{Computer Engineering} \\& \normalsize\textbf{Galatasaray University}, Istanbul\\
+& Thesis: Online Context Recognition on Mobile Phones | \small Advisor: Atay \textsc{OZGOVDE} \& Ozlem Durmaz \textsc{INCEL}  \\
+&\\
+
+
+%------------------------------------------------
+
+\textsc{2008 - 2012} & Bachelor of Science in \textsc{}\textsc{Computer Engineering} \\& \normalsize\textbf{Galatasaray University}, Istanbul\\
+& Thesis: ETL Process Management with Metadata | \small Advisor: Sultan \textsc{TURHAN}\\
+&\\
+
+%------------------------------------------------
+
+
+
+\textsc{2004 - 2008}& \textbf{Burak Bora Anatolian High School}, Istanbul
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SKİLL HIGHLIGHTS
+%----------------------------------------------------------------------------------------
+
+\section{Skill Highlights}
+
+\begin{tabular}{r|p{13cm}}
+Programming Languages:  & JAVA \\
+Databases: & PostgreSQL, MySQL, MongoDB  \\
+Web Technologies: & JSF/Primefaces,  HTML/CSS/JS\\
+Web / Application Server: & JBoss, GlassFish  \\
+Java Technologies: & JAVA EE, EJB 3, JPA/Hibernate, JDBC \\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Scholarships and Certificates}
+
+\begin{tabular}{r|p{13cm}}
+\textsc{Sept 2013 - Nov 2014}  & The Scientific and Technological Research Council of Turkey, Scholarship \normalsize\\
+
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\begin{tabular}{r|p{14cm}}
+\textsc{April} 2015 &\normalsize\textbf {Phone position/placement detection using accelerometer: Impact on activity recognition} \\
+& Sensor Networks and Information Processing (ISSNIP) \\
+& 2015 IEEE Tenth International Conference on Intelligent Sensors \\
+& Authors: Doruk \textsc{Coskun}, Ozlem Durmaz \textsc{Incel}, Atay \textsc{Ozgovde} \normalsize\\ \\
+
+\textsc{Dec} 2014 &\normalsize\textbf {On-line Context Aware Physical Activity Recognition from the Accelerometer and Audio Sensors of Smartphones} \\
+& Ambient Intelligence, Lecture Notes in Computer Science Volume 8850 \\
+& Authors: David \textsc{Blachon}, Doruk \textsc{Coskun}, François \textsc{Portet} \normalsize\\ \\
+
+\textsc{April} 2014 &\normalsize\textbf {Position-aware activity recognition on mobile phones} \\
+& 22th Signal Processing and Communications Applications Conference \\
+& Authors: Doruk \textsc{Coskun}, Ozlem Durmaz \textsc{Incel}, Atay \textsc{Ozgovde}
+
+
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{r|p{13cm}}
+\textsc{English:} & Fluent\\
+
+\textsc{French:} & Upper Intermediate\\
+
+\textsc{Turkish:} & Mothertongue\\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Technology, Football, Basketball, Swimming, Cinema, Music, Travelling\\
+
+
+
+
+
+\end{document}
